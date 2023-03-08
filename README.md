@@ -13,3 +13,15 @@ cd qrcode-reader && npm i && npm run start
 ```bash
 npm i react-qr-reader --legacy-peer-deps
 ```
+
+## 読み取り結果のサンプル例
+
+ext
+:
+"did:ion:EiD49Ge9QlWRRg2xsNbRa3kQxGJ2valW4d8MplrgTFpLjQ"
+timestamp
+:
+1678286268658
+[[Prototype]]
+:
+Object

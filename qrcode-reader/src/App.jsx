@@ -20,9 +20,9 @@ const  App = () => {
   };
 
   return (
+    <>    
     <Container maxWidth="md" style={{ paddingTop: "1em", paddingBottom: "10em" }}>
       <Button onClick={clickOpenQrReader}>test</Button>
-      <p>result: {qrResult}</p>
       {/* QR code Reader */}
       {isOpenQRCamera && <QrCodeReader onRead={e => {
         setIsOpenQRCamera(false);
@@ -30,6 +30,7 @@ const  App = () => {
         console.log(e);
       }} setOpen={setIsOpenQRCamera} />}
     </Container >
+    </>
   );
 }
 
